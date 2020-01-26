@@ -29,13 +29,13 @@ def initial_round
   sum
 end
 
-def hit?(current_car_total)
+def hit?(current_cart_total)
   prompt_user
   input = get_user_input
   if input == "s"
-    current_car_total
+    current_cart_total
   elsif get_user_input == "h"
-    deal_card + current_car_total
+    deal_card + current_cart_total
     end 
 end
 
