@@ -32,9 +32,9 @@ end
 def hit?(current_car_total)
   prompt_user
   input = get_user_input
-  if input == "h"
+  if input == "s"
     input + current_car_total
-  else get_user_input == "s"
+  else get_user_input == "h"
     cart_total + current_car_total
     end
 end
