@@ -36,7 +36,7 @@ def hit?(current_car_total)
     current_car_total
   elsif get_user_input == "h"
     deal_card + current_car_total
-    end
+    end 
 end
 
 def invalid_command
