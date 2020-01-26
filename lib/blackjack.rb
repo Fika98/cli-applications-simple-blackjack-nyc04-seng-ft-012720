@@ -35,7 +35,7 @@ def hit?(current_car_total)
   if get_user_input == "h"
     cart_total
   else get_user_input == "s"
-    cart_total
+    cart_total()
     end
 end
 
