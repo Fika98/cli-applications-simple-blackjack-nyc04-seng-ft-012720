@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?(current_car_total)
-  
+  prompt_user
   
 end
 
