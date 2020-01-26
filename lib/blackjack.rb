@@ -35,9 +35,7 @@ def hit?(total)
 end
 
 def invalid_command
-  puts "Please enter a valsid command"
-  prompt_user
-  get_user_input
+  
 
 end
 
