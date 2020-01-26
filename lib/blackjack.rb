@@ -33,8 +33,10 @@ def hit?(current_car_total)
   prompt_user
   get_user_input
   if get_user_input == "h"
-    return cart_total
-  end
+    cart_total
+  else get_user_input == "s"
+    cart_total
+    end
 end
 
 def invalid_command
