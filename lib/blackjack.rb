@@ -38,7 +38,7 @@ def hit?(current_cart_total)
     deal_card + current_cart_total
   else 
     invalid_command
-    current_cart_total
+    hit?(current_cart_total)
  end
 end
 
