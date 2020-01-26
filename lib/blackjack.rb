@@ -34,7 +34,7 @@ def hit?(current_cart_total)
   input = get_user_input
   if input == "s"
     current_cart_total
-  elsif get_user_input == "h"
+  elsif input == "h"
     deal_card + current_cart_total
     end 
 end
