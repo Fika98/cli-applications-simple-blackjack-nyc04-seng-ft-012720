@@ -29,7 +29,7 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(current_car_total)
   
   
 end
