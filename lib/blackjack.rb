@@ -35,7 +35,7 @@ def hit?(current_car_total)
   if input == "s"
     current_car_total
   elsif get_user_input == "h"
-    cart_total + current_car_total
+    deal_card + current_car_total
     end
 end
 
