@@ -49,5 +49,11 @@ end
 
 def runner
   welcome
+  cart_total = initial_round
+  until cart_total > 21
+  cart_total = hit?(cart_total)
+  display_card_total(cart_total)
+  end_game(cart_total)
+  end
 end
     
