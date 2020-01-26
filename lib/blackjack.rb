@@ -29,14 +29,13 @@ def initial_round
   sum
 end
 
-def hit?(total)
-  prompt_user
+def hit
+  
   
 end
 
 def invalid_command
   
-
 end
 
 #####################################################
